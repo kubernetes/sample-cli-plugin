@@ -328,255 +328,255 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/api/errors",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/api/meta",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/api/resource",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/apis/meta/v1",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/apis/meta/v1/unstructured",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/apis/meta/v1/unstructured/unstructuredscheme",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/apis/meta/v1beta1",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/conversion",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/conversion/queryparams",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/fields",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/labels",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime/schema",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime/serializer",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime/serializer/json",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime/serializer/protobuf",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime/serializer/recognizer",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime/serializer/streaming",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime/serializer/versioning",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/selection",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/types",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/clock",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/errors",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/framer",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/intstr",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/json",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/naming",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/net",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/runtime",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/sets",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/validation",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/validation/field",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/yaml",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/version",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/watch",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/third_party/forked/golang/reflect",
-			"Rev": "fa6ddc151d63306b3540a37d910a07b181e4a474"
+			"Rev": "d41becfba9ee9bf8e55cec1dd3934cd7cfc04b99"
 		},
 		{
 			"ImportPath": "k8s.io/cli-runtime/pkg/genericclioptions",
-			"Rev": "5702a69c455d3a129efbc2e86f8de61eb1af25a5"
+			"Rev": "e15d12b9962e18090e97f0dedee7ce8d06f0e717"
 		},
 		{
 			"ImportPath": "k8s.io/cli-runtime/pkg/genericclioptions/printers",
-			"Rev": "5702a69c455d3a129efbc2e86f8de61eb1af25a5"
+			"Rev": "e15d12b9962e18090e97f0dedee7ce8d06f0e717"
 		},
 		{
 			"ImportPath": "k8s.io/cli-runtime/pkg/genericclioptions/resource",
-			"Rev": "5702a69c455d3a129efbc2e86f8de61eb1af25a5"
+			"Rev": "e15d12b9962e18090e97f0dedee7ce8d06f0e717"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/discovery",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/kubernetes/scheme",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/pkg/apis/clientauthentication",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/pkg/apis/clientauthentication/v1alpha1",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/pkg/apis/clientauthentication/v1beta1",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/pkg/version",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/plugin/pkg/client/auth/exec",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/rest",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/rest/watch",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/restmapper",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/third_party/forked/golang/template",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/tools/auth",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/tools/clientcmd",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/tools/clientcmd/api",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/tools/clientcmd/api/latest",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/tools/clientcmd/api/v1",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/tools/metrics",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/transport",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/util/cert",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/util/connrotation",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/util/flowcontrol",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/util/homedir",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/util/integer",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go/util/jsonpath",
-			"Rev": "32801e2d7c449af3373a7728b1b3f9b9c19c1bdb"
+			"Rev": "68a55fba7cd4d186eaf0bec9ad6c28aad7fabbb8"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
