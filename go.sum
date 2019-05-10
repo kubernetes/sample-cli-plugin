@@ -108,10 +108,10 @@ gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 h1:uRGJdciOHaEIrze2W8Q3AKkep
 gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7/go.mod h1:dt/ZhP58zS4L8KSrWDmTeBkI65Dw0HsyUHuEVlX15mw=
 gopkg.in/yaml.v2 v2.2.1 h1:mUhvW9EsL+naU5Q3cakzfE91YhliOondGd6ZrsDBHQE=
 gopkg.in/yaml.v2 v2.2.1/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
-k8s.io/api v0.0.0-20190425012535-181e1f9c52c1/go.mod h1:AhUc3Ph6fhRc0SCpt0Hwv0E+Q8QiEAASkXKwfmT2JwU=
-k8s.io/apimachinery v0.0.0-20190425132440-17f84483f500/go.mod h1:5CBnzrKYGHzv9ZsSKmQ8wHt4XI4/TUBPDwYM9FlZMyw=
-k8s.io/cli-runtime v0.0.0-20190425173743-daa7a1d0e123/go.mod h1:SIOboU+/vhh92LLWoRTJx6lGDVkdH7W6fO/unrNXnTA=
-k8s.io/client-go v0.0.0-20190425172711-65184652c889/go.mod h1:PeVFCnjeDy6EwLN+wdDIZd1DwDY6jnkpQt9psMo5YRU=
+k8s.io/api v0.0.0-20190511023547-e63b5755afac/go.mod h1:f265Ep4XvHtyggfaaNhtP0AtAFilBaXq2fPjm5kYxwI=
+k8s.io/apimachinery v0.0.0-20190511023455-ad85901afca0/go.mod h1:5CBnzrKYGHzv9ZsSKmQ8wHt4XI4/TUBPDwYM9FlZMyw=
+k8s.io/cli-runtime v0.0.0-20190514185620-d979b2d2b271/go.mod h1:j+BbNb+CKu3rf1lvy8PlW4FHj00s+bjSlkY5S4wgEkI=
+k8s.io/client-go v0.0.0-20190511023711-c6f3777976ad/go.mod h1:+kqLjErve3/VoGTdnrw4Lu8D315nxEVQs1QEq8/uJ2E=
 k8s.io/klog v0.3.0 h1:0VPpR+sizsiivjIfIAQH/rl8tan6jvWkS7lU+0di3lE=
 k8s.io/klog v0.3.0/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
 k8s.io/kube-openapi v0.0.0-20190228160746-b3a7cee44a30 h1:TRb4wNWoBVrH9plmkp2q86FIDppkbrEXdXlxU3a3BMI=
