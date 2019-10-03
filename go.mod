@@ -7,8 +7,8 @@ go 1.12
 require (
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.3
-	k8s.io/cli-runtime v0.0.0-20190831152136-f9093a28079f
-	k8s.io/client-go v0.0.0-20190831152136-dd35e17ce261
+	k8s.io/cli-runtime v0.0.0-20191003002406-64d93e204d61
+	k8s.io/client-go v0.0.0-20191003000414-9f8e52c915d3
 )
 
 replace (
@@ -19,8 +19,8 @@ replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	golang.org/x/time => golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
-	k8s.io/api => k8s.io/api v0.0.0-20190831152136-518b3a755175
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190831152136-93cd198ca677
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20190831152136-f9093a28079f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190831152136-dd35e17ce261
+	k8s.io/api => k8s.io/api v0.0.0-20191003000015-cb7008132b02
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190913080033-27d36303b655
+	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20191003002406-64d93e204d61
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20191003000414-9f8e52c915d3
 )
