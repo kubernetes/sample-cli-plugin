@@ -235,6 +235,10 @@
 			"Rev": "v0.1.0"
 		},
 		{
+			"ImportPath": "github.com/liggitt/tabwriter",
+			"Rev": "89fcab3d43de"
+		},
+		{
 			"ImportPath": "github.com/magiconair/properties",
 			"Rev": "v1.8.0"
 		},
@@ -420,19 +424,19 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "fbf594f18f80"
+			"Rev": "4cb0a757333c"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "fb3eea214746"
+			"Rev": "62ce3d1e6a82"
 		},
 		{
 			"ImportPath": "k8s.io/cli-runtime",
-			"Rev": "c327aea27dcc"
+			"Rev": "0b44683c44df"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "bd505ee787b2"
+			"Rev": "464ec5ba048d"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
