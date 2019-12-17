@@ -7,15 +7,16 @@ go 1.13
 require (
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20191220235439-e0353efa44c8
-	k8s.io/client-go v0.0.0-20191220233752-31f4619a2737
+	k8s.io/cli-runtime v0.0.0
+	k8s.io/client-go v0.0.0
 )
 
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20191220233527-5011a43dca10
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191220233347-c48e860b1320
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20191220235439-e0353efa44c8
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20191220233752-31f4619a2737
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/cli-runtime => ../cli-runtime
+	k8s.io/client-go => ../client-go
+	k8s.io/sample-cli-plugin => ../sample-cli-plugin
 )
