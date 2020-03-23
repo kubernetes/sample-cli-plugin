@@ -432,11 +432,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/cli-runtime",
-			"Rev": "e7ded9ab204b"
+			"Rev": "c5a29d532eb1"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "b8fba595e8fa"
+			"Rev": "70eb4849511b"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -452,7 +452,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/utils",
-			"Rev": "4a6ff033650d"
+			"Rev": "327a8059b905"
 		},
 		{
 			"ImportPath": "sigs.k8s.io/kustomize",
