@@ -96,7 +96,7 @@
 		},
 		{
 			"ImportPath": "github.com/evanphx/json-patch",
-			"Rev": "v4.2.0"
+			"Rev": "162e5629780b"
 		},
 		{
 			"ImportPath": "github.com/fsnotify/fsnotify",
@@ -205,6 +205,10 @@
 		{
 			"ImportPath": "github.com/inconshreveable/mousetrap",
 			"Rev": "v1.0.0"
+		},
+		{
+			"ImportPath": "github.com/jessevdk/go-flags",
+			"Rev": "v1.4.0"
 		},
 		{
 			"ImportPath": "github.com/json-iterator/go",
@@ -428,19 +432,19 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "41c764546815"
+			"Rev": "eccf1e78d6cc"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "891b87d7c4bb"
+			"Rev": "0d585d148f6f"
 		},
 		{
 			"ImportPath": "k8s.io/cli-runtime",
-			"Rev": "78ab45b1a339"
+			"Rev": "e200dd62e278"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "ad3bb8e4ccf1"
+			"Rev": "b60a74718804"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
