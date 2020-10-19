@@ -7,13 +7,16 @@ go 1.15
 require (
 	github.com/spf13/cobra v1.0.0
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20201004001941-bc95ff91653e
-	k8s.io/client-go v0.0.0-20201004000108-758467711e07
+	k8s.io/cli-runtime v0.0.0
+	k8s.io/client-go v0.0.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20201003235837-18112a7b933b
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20201003235655-10b38829b621
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20201004001941-bc95ff91653e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20201004000108-758467711e07
+	github.com/Azure/go-autorest/autorest/mocks => github.com/Azure/go-autorest/autorest/mocks v0.4.0
+	golang.org/x/crypto => golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/cli-runtime => ../cli-runtime
+	k8s.io/client-go => ../client-go
+	k8s.io/sample-cli-plugin => ../sample-cli-plugin
 )
