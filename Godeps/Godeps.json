@@ -688,7 +688,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/cli-runtime",
-			"Rev": "c4595e8c277b"
+			"Rev": "87ad57c444cb"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
