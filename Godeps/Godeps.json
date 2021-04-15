@@ -956,19 +956,19 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "6eed676bc189"
+			"Rev": "e55a4a108a76"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "d8cdd62f18c3"
+			"Rev": "1ba67c107540"
 		},
 		{
 			"ImportPath": "k8s.io/cli-runtime",
-			"Rev": "4acfe08ee565"
+			"Rev": "a3112a1a9f25"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "0bb6464b1348"
+			"Rev": "0c029ff945dd"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -1000,11 +1000,11 @@
 		},
 		{
 			"ImportPath": "sigs.k8s.io/kustomize/api",
-			"Rev": "v0.8.5"
+			"Rev": "v0.8.8"
 		},
 		{
 			"ImportPath": "sigs.k8s.io/kustomize/kyaml",
-			"Rev": "v0.10.15"
+			"Rev": "v0.10.17"
 		},
 		{
 			"ImportPath": "sigs.k8s.io/structured-merge-diff/v4",
