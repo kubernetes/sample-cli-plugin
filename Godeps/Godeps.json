@@ -376,7 +376,7 @@
 		},
 		{
 			"ImportPath": "github.com/googleapis/gnostic",
-			"Rev": "v0.4.1"
+			"Rev": "v0.5.1"
 		},
 		{
 			"ImportPath": "github.com/gopherjs/gopherjs",
@@ -759,6 +759,10 @@
 			"Rev": "v1.7.0"
 		},
 		{
+			"ImportPath": "github.com/stoewer/go-strcase",
+			"Rev": "v1.2.0"
+		},
+		{
 			"ImportPath": "github.com/stretchr/objx",
 			"Rev": "v0.2.0"
 		},
@@ -948,7 +952,7 @@
 		},
 		{
 			"ImportPath": "gopkg.in/yaml.v3",
-			"Rev": "9f266ea9e77c"
+			"Rev": "eeeca48fe776"
 		},
 		{
 			"ImportPath": "honnef.co/go/tools",
@@ -956,19 +960,19 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "e55a4a108a76"
+			"Rev": "e993e0004b6d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "1ba67c107540"
+			"Rev": "37b6f01a7c3f"
 		},
 		{
 			"ImportPath": "k8s.io/cli-runtime",
-			"Rev": "a3112a1a9f25"
+			"Rev": "86a596a2e6d5"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "0c029ff945dd"
+			"Rev": "bfec2914ea57"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -980,7 +984,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/kube-openapi",
-			"Rev": "591a79e4bda7"
+			"Rev": "1a6458611d18"
 		},
 		{
 			"ImportPath": "k8s.io/utils",
