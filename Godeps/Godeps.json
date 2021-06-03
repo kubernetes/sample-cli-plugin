@@ -904,11 +904,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/cli-runtime",
-			"Rev": "6ac34f0f28df"
+			"Rev": "0c839ec07fe7"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "caa2ddeb897a"
+			"Rev": "09dbda0b387f"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
