@@ -7,14 +7,13 @@ go 1.16
 require (
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0
-	k8s.io/client-go v0.0.0
+	k8s.io/cli-runtime v0.0.0-20211113000837-3353a80fdd57
+	k8s.io/client-go v0.0.0-20211111073227-e627be7959e7
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/cli-runtime => ../cli-runtime
-	k8s.io/client-go => ../client-go
-	k8s.io/sample-cli-plugin => ../sample-cli-plugin
+	k8s.io/api => k8s.io/api v0.0.0-20211111072600-2d1f8bde0d9a
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20211111072039-19377c9f105d
+	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20211113000837-3353a80fdd57
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20211111073227-e627be7959e7
 )
