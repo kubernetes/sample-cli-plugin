@@ -7,15 +7,15 @@ go 1.18
 require (
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20220613081341-bdacd8aef674
-	k8s.io/client-go v0.0.0-20220613075149-d4fc9af2dfad
+	k8s.io/cli-runtime v0.0.0-20220613201155-e6102818c52f
+	k8s.io/client-go v0.0.0-20220613195210-2a9f95519059
 )
 
 require (
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/emicklei/go-restful/v3 v3.7.5-0.20220308211933-7c971ca4d0fd // indirect
+	github.com/emicklei/go-restful/v3 v3.8.0 // indirect
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
@@ -72,6 +72,6 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20220613074849-6b0201da8019
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220613074648-b90ea24d2fd6
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20220613081341-bdacd8aef674
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220613075149-d4fc9af2dfad
+	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20220613201155-e6102818c52f
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220613195210-2a9f95519059
 )
