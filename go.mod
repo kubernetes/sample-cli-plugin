@@ -7,8 +7,8 @@ go 1.18
 require (
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20220623041751-84e34d4bb5e6
-	k8s.io/client-go v0.0.0-20220623035328-8dfe88aeffaa
+	k8s.io/cli-runtime v0.0.0
+	k8s.io/client-go v0.0.0
 )
 
 require (
@@ -46,9 +46,9 @@ require (
 	github.com/stretchr/testify v1.7.0 // indirect
 	github.com/xlab/treeprint v0.0.0-20181112141820-a009c3971eca // indirect
 	go.starlark.net v0.0.0-20200306205701-8dd3e2ee1dd5 // indirect
-	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd // indirect
+	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
-	golang.org/x/sys v0.0.0-20220209214540-3681064d5158 // indirect
+	golang.org/x/sys v0.0.0-20220319134239-a9b59b0215f8 // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
@@ -57,10 +57,10 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20220623035010-b98f264fe39f // indirect
-	k8s.io/apimachinery v0.0.0-20220623034752-e74e8a902ca4 // indirect
+	k8s.io/api v0.0.0 // indirect
+	k8s.io/apimachinery v0.0.0 // indirect
 	k8s.io/klog/v2 v2.70.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20220603121420-31174f50af60 // indirect
+	k8s.io/kube-openapi v0.0.0-20220627174259-011e075b9cb8 // indirect
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9 // indirect
 	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
 	sigs.k8s.io/kustomize/api v0.11.4 // indirect
@@ -70,8 +70,9 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220623035010-b98f264fe39f
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220623034752-e74e8a902ca4
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20220623041751-84e34d4bb5e6
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220623035328-8dfe88aeffaa
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/cli-runtime => ../cli-runtime
+	k8s.io/client-go => ../client-go
+	k8s.io/sample-cli-plugin => ../sample-cli-plugin
 )
