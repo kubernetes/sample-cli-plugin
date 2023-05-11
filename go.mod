@@ -7,8 +7,8 @@ go 1.20
 require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20230515175206-60af4ca53a22
-	k8s.io/client-go v0.0.0-20230515170425-79d967dc5240
+	k8s.io/cli-runtime v0.0.0
+	k8s.io/client-go v0.0.0
 )
 
 require (
@@ -42,6 +42,12 @@ require (
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/xlab/treeprint v1.2.0 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.9
+	go.etcd.io/etcd/client/pkg/v3 v3.5.8
+	go.etcd.io/etcd/client/v3 v3.5.9
+	go.etcd.io/etcd/pkg/v3 v3.5.9
+	go.etcd.io/etcd/raft/v3 v3.5.9
+	go.etcd.io/etcd/server/v3 v3.5.9
 	go.starlark.net v0.0.0-20200306205701-8dd3e2ee1dd5 // indirect
 	golang.org/x/net v0.9.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
@@ -54,11 +60,11 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20230515170018-7c333a3dc11f // indirect
-	k8s.io/apimachinery v0.0.0-20230515165651-676b368d6d0d // indirect
+	k8s.io/api v0.0.0 // indirect
+	k8s.io/apimachinery v0.0.0 // indirect
 	k8s.io/klog/v2 v2.100.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f // indirect
-	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2 // indirect
+	k8s.io/utils v0.0.0-20230313181309-38a27ef9d749 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/kustomize/api v0.13.2 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.14.1 // indirect
@@ -67,8 +73,9 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230515170018-7c333a3dc11f
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230515165651-676b368d6d0d
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20230515175206-60af4ca53a22
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230515170425-79d967dc5240
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/cli-runtime => ../cli-runtime
+	k8s.io/client-go => ../client-go
+	k8s.io/sample-cli-plugin => ../sample-cli-plugin
 )
