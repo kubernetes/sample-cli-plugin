@@ -7,8 +7,8 @@ go 1.19
 require (
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20230504185609-21b3fa7c3b5c
-	k8s.io/client-go v0.0.0-20230504163259-038b381bf689
+	k8s.io/cli-runtime v0.0.0-20230523193745-247eda3b7c4b
+	k8s.io/client-go v0.0.0-20230523184531-a3a549a55ac8
 )
 
 require (
@@ -27,7 +27,7 @@ require (
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
-	github.com/google/uuid v1.1.2 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/gregjones/httpcache v0.0.0-20180305231024-9cad4c3443a7 // indirect
 	github.com/imdario/mergo v0.3.6 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
@@ -55,8 +55,8 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20230504161039-c9f384e22127 // indirect
-	k8s.io/apimachinery v0.0.0-20230504155441-b207ce547a90 // indirect
+	k8s.io/api v0.0.0-20230511174914-37e98ba1f0aa // indirect
+	k8s.io/apimachinery v0.0.0-20230523182049-b45fce6213dd // indirect
 	k8s.io/klog/v2 v2.80.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280 // indirect
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d // indirect
@@ -68,8 +68,8 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230504161039-c9f384e22127
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230504155441-b207ce547a90
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20230504185609-21b3fa7c3b5c
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230504163259-038b381bf689
+	k8s.io/api => k8s.io/api v0.0.0-20230511174914-37e98ba1f0aa
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230523182049-b45fce6213dd
+	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20230523193745-247eda3b7c4b
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230523184531-a3a549a55ac8
 )
