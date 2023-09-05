@@ -19,16 +19,21 @@ package main
 import (
 	"fmt"
 	"github.com/spf13/pflag"
-	"os"
-
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 	"k8s.io/sample-cli-plugin/pkg/cmd"
+	"os"
 )
 
 func main() {
 	flags := pflag.NewFlagSet("kubectl-mook", pflag.ExitOnError)
 	pflag.CommandLine = flags
 	fmt.Println("Hello World")
+
+	for index := 0; true; index++ {
+		lines := cmd.MockLines(index)
+		cmd.LivePrint(lines)
+	}
+
 	root := cmd.NewCmdNamespace(genericiooptions.IOStreams{In: os.Stdin, Out: os.Stdout, ErrOut: os.Stderr})
 	if err := root.Execute(); err != nil {
 		os.Exit(1)
