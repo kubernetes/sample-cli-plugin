@@ -18,10 +18,11 @@ package main
 
 import (
 	"fmt"
+	"os"
+
 	"github.com/spf13/pflag"
 	"k8s.io/cli-runtime/pkg/genericiooptions"
 	"k8s.io/sample-cli-plugin/pkg/cmd"
-	"os"
 )
 
 func main() {
@@ -30,7 +31,7 @@ func main() {
 	fmt.Println("Hello World")
 
 	for index := 0; true; index++ {
-		lines := cmd.MockLines(index)
+		lines := cmd.LivePodsInformation()
 		cmd.LivePrint(lines)
 	}
 
