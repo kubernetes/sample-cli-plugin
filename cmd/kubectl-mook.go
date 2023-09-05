@@ -17,7 +17,6 @@ limitations under the License.
 package main
 
 import (
-	"fmt"
 	"os"
 
 	"github.com/spf13/pflag"
@@ -28,14 +27,13 @@ import (
 func main() {
 	flags := pflag.NewFlagSet("kubectl-mook", pflag.ExitOnError)
 	pflag.CommandLine = flags
-	fmt.Println("Hello World")
 
-	for index := 0; true; index++ {
-		lines := cmd.LivePodsInformation()
-		cmd.LivePrint(lines)
-	}
+	// for index := 0; true; index++ {
+	// 	lines := cmd.LivePodsInformation()
+	// 	cmd.LivePrint(lines)
+	// }
 
-	root := cmd.NewCmdNamespace(genericiooptions.IOStreams{In: os.Stdin, Out: os.Stdout, ErrOut: os.Stderr})
+	root := cmd.LivePodsNamespace(genericiooptions.IOStreams{In: os.Stdin, Out: os.Stdout, ErrOut: os.Stderr})
 	if err := root.Execute(); err != nil {
 		os.Exit(1)
 	}

@@ -9,10 +9,12 @@ import (
 	"time"
 
 	"github.com/fatih/color"
+	"github.com/spf13/cobra"
 
 	"context"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	"k8s.io/cli-runtime/pkg/genericclioptions"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 )
@@ -57,7 +59,7 @@ func MockLines(count int) []string {
 
 }
 
-func LivePodsInformation() []string {
+func LivePodsInformation(args []string) []string {
 	loadingRules := clientcmd.NewDefaultClientConfigLoadingRules()
 	configOverrides := &clientcmd.ConfigOverrides{}
 	kubeConfig := clientcmd.NewNonInteractiveDeferredLoadingClientConfig(loadingRules, configOverrides)
@@ -66,11 +68,32 @@ func LivePodsInformation() []string {
 	clientset, _ := kubernetes.NewForConfig(config)
 
 	ctx := context.Background()
-	pod, _ := clientset.CoreV1().Pods("staging-in-ab-trust-cns-monitor").List(ctx, metav1.ListOptions{})
+	namespace := args[0]
+	if namespace == "" {
+		namespace = "default"
+	}
+	pod, _ := clientset.CoreV1().Pods(namespace).List(ctx, metav1.ListOptions{})
 
 	var pods []string
 	for _, p := range pod.Items {
 		pods = append(pods, fmt.Sprintf("%s - %s - %s\n", p.ObjectMeta.Name, p.Status.Phase, p.Status.StartTime))
 	}
 	return pods
+}
+
+func LivePodsNamespace(streams genericclioptions.IOStreams) *cobra.Command {
+	cmd := &cobra.Command{
+		Use:          "mook [flags]",
+		Short:        "Live Tail of Pod Information",
+		SilenceUsage: true,
+		RunE: func(c *cobra.Command, args []string) error {
+			for index := 0; true; index++ {
+				lines := LivePodsInformation(args)
+				LivePrint(lines)
+			}
+			return nil
+		},
+	}
+
+	return cmd
 }

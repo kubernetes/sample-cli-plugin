@@ -78,8 +78,8 @@ func NewCmdNamespace(streams genericiooptions.IOStreams) *cobra.Command {
 	o := NewNamespaceOptions(streams)
 
 	cmd := &cobra.Command{
-		Use:          "ns [new-namespace] [flags]",
-		Short:        "View or set the current namespace",
+		Use:          "mook [flags]",
+		Short:        "Live Tail Pod Information",
 		Example:      fmt.Sprintf(namespaceExample, "kubectl"),
 		SilenceUsage: true,
 		RunE: func(c *cobra.Command, args []string) error {
