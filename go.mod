@@ -7,8 +7,8 @@ go 1.20
 require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20230906025132-edd7a6c9c3c4
-	k8s.io/client-go v0.0.0-20230906022041-f5a7a42bbcf8
+	k8s.io/cli-runtime v0.0.0-20230907041755-7b13f09bb8fa
+	k8s.io/client-go v0.0.0-20230907024014-53c02afd1b4c
 )
 
 require (
@@ -55,21 +55,21 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20230901043046-faec07c7cc89 // indirect
-	k8s.io/apimachinery v0.0.0-20230905232051-3514784dbf48 // indirect
+	k8s.io/api v0.0.0-20230907022840-7f63b7b88cb6 // indirect
+	k8s.io/apimachinery v0.0.0-20230907021858-82362bc34ae0 // indirect
 	k8s.io/klog/v2 v2.100.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20230717233707-2695361300d9 // indirect
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/kustomize/api v0.13.5-0.20230601165947-6ce0bf390ce3 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.14.3-0.20230601165947-6ce0bf390ce3 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.3.0 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230901043046-faec07c7cc89
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230905232051-3514784dbf48
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20230906025132-edd7a6c9c3c4
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230906022041-f5a7a42bbcf8
+	k8s.io/api => k8s.io/api v0.0.0-20230907022840-7f63b7b88cb6
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230907021858-82362bc34ae0
+	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20230907041755-7b13f09bb8fa
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230907024014-53c02afd1b4c
 )
