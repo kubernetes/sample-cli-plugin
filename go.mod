@@ -7,11 +7,12 @@ go 1.20
 require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20231011074005-3d1197d7c1a6
-	k8s.io/client-go v0.0.0-20231011071243-cf4002bbbf85
+	k8s.io/cli-runtime v0.0.0-20231011193854-a96869e0c2be
+	k8s.io/client-go v0.0.0-20231011150411-57d597c1d633
 )
 
 require (
+	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
@@ -35,6 +36,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/moby/term v0.0.0-20221205130635-1aeaba878587 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00 // indirect
@@ -70,6 +72,6 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20231011070906-133964c1133a
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231011070637-1ca6c696c8e4
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20231011074005-3d1197d7c1a6
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231011071243-cf4002bbbf85
+	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20231011193854-a96869e0c2be
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20231011150411-57d597c1d633
 )
