@@ -7,8 +7,8 @@ go 1.22.0
 require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20240301215537-eeedba799671
-	k8s.io/client-go v0.0.0-20240301205136-1bed3f14c117
+	k8s.io/cli-runtime v0.0.0-20240327175810-c8b7f6a154cd
+	k8s.io/client-go v0.0.0-20240306170515-0cdc0ce850af
 )
 
 require (
@@ -22,7 +22,7 @@ require (
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
 	github.com/go-openapi/swag v0.22.3 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/btree v1.0.1 // indirect
 	github.com/google/gnostic-models v0.6.8 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
@@ -52,12 +52,12 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20240301204737-cd36300dc819 // indirect
-	k8s.io/apimachinery v0.0.0-20240301204447-c9969982b5df // indirect
+	k8s.io/api v0.0.0-20240306165540-05aa4bceed70 // indirect
+	k8s.io/apimachinery v0.0.0-20240306164812-cbfe0a1feaa5 // indirect
 	k8s.io/klog/v2 v2.120.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340 // indirect
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b // indirect
@@ -66,11 +66,4 @@ require (
 	sigs.k8s.io/kustomize/kyaml v0.14.3-0.20230601165947-6ce0bf390ce3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
-)
-
-replace (
-	k8s.io/api => k8s.io/api v0.0.0-20240301204737-cd36300dc819
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240301204447-c9969982b5df
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20240301215537-eeedba799671
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20240301205136-1bed3f14c117
 )
