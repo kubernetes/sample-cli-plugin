@@ -7,8 +7,8 @@ go 1.19
 require (
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20240307211051-50aedea0ee88
-	k8s.io/client-go v0.0.0-20240307175727-7adf9e8a99d7
+	k8s.io/cli-runtime v0.26.15
+	k8s.io/client-go v0.26.15
 )
 
 require (
@@ -55,8 +55,8 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20240307174302-4143d6bf2723 // indirect
-	k8s.io/apimachinery v0.0.0-20240307172550-48b9387ff76a // indirect
+	k8s.io/api v0.26.15 // indirect
+	k8s.io/apimachinery v0.26.15 // indirect
 	k8s.io/klog/v2 v2.80.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280 // indirect
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d // indirect
@@ -68,8 +68,8 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20240307174302-4143d6bf2723
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240307172550-48b9387ff76a
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20240307211051-50aedea0ee88
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20240307175727-7adf9e8a99d7
+	k8s.io/api => k8s.io/api v0.26.15
+	k8s.io/apimachinery => k8s.io/apimachinery v0.26.15
+	k8s.io/cli-runtime => k8s.io/cli-runtime v0.26.15
+	k8s.io/client-go => k8s.io/client-go v0.26.15
 )
