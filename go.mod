@@ -7,8 +7,8 @@ go 1.22.0
 require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20240707030735-f3a07984ce75
-	k8s.io/client-go v0.0.0-20240707023231-354ed1bc9f1f
+	k8s.io/cli-runtime v0.0.0-20240713190550-094be534f684
+	k8s.io/client-go v0.0.0-20240713183232-34751e103ae1
 )
 
 require (
@@ -60,11 +60,11 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20240707022826-2cf4612580d3 // indirect
-	k8s.io/apimachinery v0.0.0-20240707022528-c1f240355706 // indirect
+	k8s.io/api v0.0.0-20240713182828-fc8a03c10db3 // indirect
+	k8s.io/apimachinery v0.0.0-20240713182533-d7e1c5311169 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340 // indirect
-	k8s.io/utils v0.0.0-20230726121419-3b25d923346b // indirect
+	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/kustomize/api v0.17.2 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.17.1 // indirect
