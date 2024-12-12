@@ -11,8 +11,8 @@ godebug winsymlink=0
 require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20241206192854-f6c5161ff902
-	k8s.io/client-go v0.0.0-20241206182637-8e21410d16a5
+	k8s.io/cli-runtime v0.0.0-20241212102221-766ce79fee1d
+	k8s.io/client-go v0.0.0-20241212095039-1df7a02c723f
 )
 
 require (
@@ -60,8 +60,8 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20241206182100-8b216f34d7ed // indirect
-	k8s.io/apimachinery v0.0.0-20241206181643-8c60292e48e4 // indirect
+	k8s.io/api v0.0.0-20241212094650-c137d05aad4e // indirect
+	k8s.io/apimachinery v0.0.0-20241212094400-146e532b5516 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f // indirect
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738 // indirect
