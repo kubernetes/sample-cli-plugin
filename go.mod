@@ -11,8 +11,8 @@ godebug winsymlink=0
 require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20250103165726-64c6e3db8141
-	k8s.io/client-go v0.0.0-20250103162209-2ad95cfec907
+	k8s.io/cli-runtime v0.0.0-20250106205739-e15a3a7cfaf1
+	k8s.io/client-go v0.0.0-20250106202309-ca1e525bb47b
 )
 
 require (
@@ -48,7 +48,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xlab/treeprint v1.2.0 // indirect
-	golang.org/x/net v0.30.0 // indirect
+	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/oauth2 v0.23.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
@@ -59,8 +59,8 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20241220201724-9603cdf39dd3 // indirect
-	k8s.io/apimachinery v0.0.0-20241218214440-307a3ddd3cae // indirect
+	k8s.io/api v0.0.0-20250106201850-018f9a59fc40 // indirect
+	k8s.io/apimachinery v0.0.0-20250106201545-3e8e52d6a125 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20241212222426-2c72e554b1e7 // indirect
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738 // indirect
