@@ -2,15 +2,15 @@
 
 module k8s.io/sample-cli-plugin
 
-go 1.23.0
+go 1.24.0
 
-godebug default=go1.23
+godebug default=go1.24
 
 require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20250223002339-81a7e0854310
-	k8s.io/client-go v0.0.0-20250222235035-8fa90a072877
+	k8s.io/cli-runtime v0.0.0
+	k8s.io/client-go v0.0.0
 )
 
 require (
@@ -57,8 +57,8 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20250222234703-315eef3bab2a // indirect
-	k8s.io/apimachinery v0.0.0-20250222234438-a78353204564 // indirect
+	k8s.io/api v0.0.0 // indirect
+	k8s.io/apimachinery v0.0.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20241212222426-2c72e554b1e7 // indirect
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738 // indirect
@@ -67,4 +67,11 @@ require (
 	sigs.k8s.io/kustomize/kyaml v0.19.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/cli-runtime => ../cli-runtime
+	k8s.io/client-go => ../client-go
 )
