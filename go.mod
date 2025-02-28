@@ -9,8 +9,8 @@ godebug default=go1.24
 require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
-	k8s.io/cli-runtime v0.0.0-20250227204313-be6e1e4d1d77
-	k8s.io/client-go v0.0.0-20250227200727-b46275ad754d
+	k8s.io/cli-runtime v0.0.0-20250228204113-0c55644832c2
+	k8s.io/client-go v0.0.0-20250228200728-cb16ee36351f
 )
 
 require (
@@ -47,18 +47,18 @@ require (
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xlab/treeprint v1.2.0 // indirect
 	golang.org/x/net v0.33.0 // indirect
-	golang.org/x/oauth2 v0.23.0 // indirect
-	golang.org/x/sync v0.10.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/term v0.27.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/oauth2 v0.27.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.7.0 // indirect
 	google.golang.org/protobuf v1.35.1 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20250227200351-c3130ba7ba23 // indirect
-	k8s.io/apimachinery v0.0.0-20250227200116-758f86daa84e // indirect
+	k8s.io/api v0.0.0-20250228200349-b732bdc2b391 // indirect
+	k8s.io/apimachinery v0.0.0-20250228200112-609a76591dd3 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20241212222426-2c72e554b1e7 // indirect
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738 // indirect
