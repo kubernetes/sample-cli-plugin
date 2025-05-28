@@ -9,8 +9,8 @@ godebug default=go1.24
 require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.6
-	k8s.io/cli-runtime v0.0.0-20250516041905-f18b0eefe81b
-	k8s.io/client-go v0.0.0-20250516033711-025e06660a23
+	k8s.io/cli-runtime v0.0.0-20250528181011-72dcb30dbed5
+	k8s.io/client-go v0.0.0-20250526134158-e75871c73119
 )
 
 require (
@@ -56,8 +56,8 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20250516033257-ffe08c772d5b // indirect
-	k8s.io/apimachinery v0.0.0-20250516032956-da3bba90543c // indirect
+	k8s.io/api v0.0.0-20250527173755-16b0005a085f // indirect
+	k8s.io/apimachinery v0.0.0-20250527161416-09ff13941cda // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20250318190949-c8a335a9a2ff // indirect
 	k8s.io/utils v0.0.0-20250502105355-0f33e8f1c979 // indirect
