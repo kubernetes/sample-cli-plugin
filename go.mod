@@ -10,7 +10,7 @@ require (
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.6
 	k8s.io/cli-runtime v0.0.0-20250610203159-86bf0da7d6ec
-	k8s.io/client-go v0.0.0-20250609120107-9638111dc7f5
+	k8s.io/client-go v0.0.0-20250612080042-d33a6ba860cb
 )
 
 require (
@@ -27,7 +27,6 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/gnostic-models v0.6.9 // indirect
-	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
@@ -56,8 +55,8 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20250610195658-be9d9f7dc6a8 // indirect
-	k8s.io/apimachinery v0.0.0-20250606195423-d5745c2f38f8 // indirect
+	k8s.io/api v0.0.0-20250612075647-2f1ca0f4e40c // indirect
+	k8s.io/apimachinery v0.0.0-20250612075405-9ad036216e83 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20250318190949-c8a335a9a2ff // indirect
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397 // indirect
