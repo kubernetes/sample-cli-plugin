@@ -9,8 +9,8 @@ github.com/creack/pty v1.1.18/go.mod h1:MOBLtS5ELjhRRrroQr9kyvTxUAFNvYEK993ew/Vr
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/emicklei/go-restful/v3 v3.11.0 h1:rAQeMHw1c7zTmncogyy8VvRZwtkmkZ4FxERmMY4rD+g=
-github.com/emicklei/go-restful/v3 v3.11.0/go.mod h1:6n3XBCmQQb25CM2LCACGz8ukIrRry+4bhvbpWn3mrbc=
+github.com/emicklei/go-restful/v3 v3.12.2 h1:DhwDP0vY3k8ZzE0RunuJy8GhNpPL6zqLkDf9B/a0/xU=
+github.com/emicklei/go-restful/v3 v3.12.2/go.mod h1:6n3XBCmQQb25CM2LCACGz8ukIrRry+4bhvbpWn3mrbc=
 github.com/fxamacker/cbor/v2 v2.8.0 h1:fFtUGXUzXPHTIUdne5+zzMPTfffl3RD5qYnkY40vtxU=
 github.com/fxamacker/cbor/v2 v2.8.0/go.mod h1:vM4b+DJCtHn+zz7h3FFp/hDAI9WNWCsZj23V5ytsSxQ=
 github.com/go-errors/errors v1.4.2 h1:J6MZopCL4uSllY1OfXM374weqZFFItUbrImctkmUxIA=
@@ -177,10 +177,10 @@ k8s.io/api v0.0.0-20250702170451-bfa25161ab14 h1:ru1qVDjtx6BP62PQjJ+Wl9raUn0a8nj
 k8s.io/api v0.0.0-20250702170451-bfa25161ab14/go.mod h1:K0G717YoOyRoxuW09o2hgVeUK6NK3vcAzQBtcQRnL9o=
 k8s.io/apimachinery v0.0.0-20250702170156-7548d4da2f38 h1:8O5idX0pTbbeSayup4l3BUsPhHYxITx/6XFc149kAJw=
 k8s.io/apimachinery v0.0.0-20250702170156-7548d4da2f38/go.mod h1:RkaUIZxsmnceX2hEfn44FGiTXiv/8cUWaqjCh1kDzZg=
-k8s.io/cli-runtime v0.0.0-20250702174741-771108e68e98 h1:1jrPoP0D3FE9x7tW18aJibhZIS73sDlmnWO0YZxE1X4=
-k8s.io/cli-runtime v0.0.0-20250702174741-771108e68e98/go.mod h1:nZ16UZjmzkpCsN9jOcj8wy+cyqbXpJWlsD+lwLVWQmw=
-k8s.io/client-go v0.0.0-20250702170847-0746d1b7322b h1:XzzMTQNm3JMz6dh3c5oJbRfPO5Np0+SQcI8Q+ADq7Sg=
-k8s.io/client-go v0.0.0-20250702170847-0746d1b7322b/go.mod h1:jmp8BGXr3fP6+ho7p/Bf+Of4YND9LrF1B1a+zlgpS0k=
+k8s.io/cli-runtime v0.0.0-20250702214254-751a3d513c59 h1:6FQgVQjIiJfXvZEocNtrlLBGPyflsGitpTKJ9Z+ge3o=
+k8s.io/cli-runtime v0.0.0-20250702214254-751a3d513c59/go.mod h1:OVa2qMCCNXw3aBVYOfxQqIHv4h3wfgKowMNzQeidt+c=
+k8s.io/client-go v0.0.0-20250702210839-783cf83ee3e2 h1:XbQJknKstWSFZcMLue0825rHWwAoo7riImPGctZ9vVA=
+k8s.io/client-go v0.0.0-20250702210839-783cf83ee3e2/go.mod h1:uXRScHT++tkug2xcKCzM5BsIa1Jv0sDB+4xxMnnGMCU=
 k8s.io/klog/v2 v2.130.1 h1:n9Xl7H1Xvksem4KFG4PYbdQCQxqc/tTUyrgXaOhHSzk=
 k8s.io/klog/v2 v2.130.1/go.mod h1:3Jpz1GvMt720eyJH1ckRHK1EDfpxISzJ7I9OYgaDtPE=
 k8s.io/kube-openapi v0.0.0-20250628140032-d90c4fd18f59 h1:Jc4GiFTK2HHOpfQFoQEGXTBTs2pETwHukmoD4yoTqwo=
