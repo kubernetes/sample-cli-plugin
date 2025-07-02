@@ -9,8 +9,8 @@ godebug default=go1.24
 require (
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.6
-	k8s.io/cli-runtime v0.0.0-20250702214254-751a3d513c59
-	k8s.io/client-go v0.0.0-20250702210839-783cf83ee3e2
+	k8s.io/cli-runtime v0.0.0-20250703014644-240f0f6af745
+	k8s.io/client-go v0.0.0-20250703010829-2cfeed63b269
 )
 
 require (
@@ -57,12 +57,12 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20250702170451-bfa25161ab14 // indirect
-	k8s.io/apimachinery v0.0.0-20250702170156-7548d4da2f38 // indirect
+	k8s.io/api v0.0.0-20250703010437-9ca4bf8538e0 // indirect
+	k8s.io/apimachinery v0.0.0-20250703010150-b86b632271cf // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20250628140032-d90c4fd18f59 // indirect
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397 // indirect
-	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
+	sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8 // indirect
 	sigs.k8s.io/kustomize/api v0.19.0 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.19.0 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
