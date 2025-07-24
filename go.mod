@@ -9,8 +9,8 @@ godebug default=go1.24
 require (
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.6
-	k8s.io/cli-runtime v0.0.0-20250724191302-2f74b3452a0d
-	k8s.io/client-go v0.0.0-20250724145627-753cfe181182
+	k8s.io/cli-runtime v0.0.0-20250724232152-a50ecb189e96
+	k8s.io/client-go v0.0.0-20250724224906-d4f2d5b8ccf7
 )
 
 require (
@@ -18,7 +18,7 @@ require (
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.12.2 // indirect
-	github.com/fxamacker/cbor/v2 v2.8.0 // indirect
+	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
 	github.com/go-errors/errors v1.4.2 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-openapi/jsonpointer v0.21.0 // indirect
@@ -56,8 +56,8 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20250724104226-1560b8c850a7 // indirect
-	k8s.io/apimachinery v0.0.0-20250723005633-58c4eb072ebf // indirect
+	k8s.io/api v0.0.0-20250724224534-f2279712f874 // indirect
+	k8s.io/apimachinery v0.0.0-20250724224258-50e39b11cd32 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20250710124328-f3f2b991d03b // indirect
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397 // indirect
