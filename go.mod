@@ -9,14 +9,14 @@ godebug default=go1.25
 require (
 	github.com/spf13/cobra v1.10.0
 	github.com/spf13/pflag v1.0.9
-	k8s.io/cli-runtime v0.0.0-20251219190600-870c204a4e3a
-	k8s.io/client-go v0.0.0-20251219182940-687c6c1315a9
+	k8s.io/cli-runtime v0.0.0
+	k8s.io/client-go v0.0.0
 )
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/emicklei/go-restful/v3 v3.12.2 // indirect
 	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
 	github.com/go-errors/errors v1.4.2 // indirect
@@ -53,8 +53,8 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20251219182517-42a0dbb88620 // indirect
-	k8s.io/apimachinery v0.0.0-20251219182210-41f756ddfded // indirect
+	k8s.io/api v0.0.0 // indirect
+	k8s.io/apimachinery v0.0.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912 // indirect
 	k8s.io/utils v0.0.0-20251219084037-98d557b7f1e7 // indirect
@@ -64,4 +64,11 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/cli-runtime => ../cli-runtime
+	k8s.io/client-go => ../client-go
 )
