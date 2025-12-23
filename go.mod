@@ -9,8 +9,8 @@ godebug default=go1.25
 require (
 	github.com/spf13/cobra v1.10.0
 	github.com/spf13/pflag v1.0.9
-	k8s.io/cli-runtime v0.0.0-20251221030513-397c5d9ba7a8
-	k8s.io/client-go v0.0.0-20251221022937-af9dcc36515d
+	k8s.io/cli-runtime v0.0.0-20251223150732-70c3df11de00
+	k8s.io/client-go v0.0.0-20251223143015-d9d16a9e173d
 )
 
 require (
@@ -53,8 +53,8 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.0.0-20251221022517-273786d760b8 // indirect
-	k8s.io/apimachinery v0.0.0-20251221022210-2a337e1bb217 // indirect
+	k8s.io/api v0.0.0-20251223142543-49b7fdb8413e // indirect
+	k8s.io/apimachinery v0.0.0-20251223142228-10257273d7e7 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912 // indirect
 	k8s.io/utils v0.0.0-20251219084037-98d557b7f1e7 // indirect
@@ -62,6 +62,6 @@ require (
 	sigs.k8s.io/kustomize/api v0.20.1 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.20.1 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
-	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
+	sigs.k8s.io/structured-merge-diff/v6 v6.3.1 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
